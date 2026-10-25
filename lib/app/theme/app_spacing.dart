@@ -1,0 +1,16 @@
+/// 4-point spacing scale conforming to ARSP-DS-001.
+class AppSpacing {
+  AppSpacing._();
+
+  static const double space2 = 2.0;
+  static const double space4 = 4.0;
+  static const double space6 = 6.0;
+  static const double space8 = 8.0;
+  static const double space12 = 12.0;
+  static const double space16 = 16.0; // Standard screen padding
+  static const double space20 = 20.0;
+  static const double space24 = 24.0;
+  static const double space32 = 32.0;
+  static const double space40 = 40.0;
+  static const double space48 = 48.0; // Minimum touch target dimension
+}

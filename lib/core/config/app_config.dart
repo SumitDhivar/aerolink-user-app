@@ -9,7 +9,7 @@ class AppConfig {
   /// Overridable via `--dart-define=API_BASE_URL=...`
   static const String defaultBaseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue: 'http://127.0.0.1:8000',
+    defaultValue: 'http://127.0.0.1:8080',
   );
 
   static const int connectTimeoutMs = 15000;
@@ -17,7 +17,8 @@ class AppConfig {
 
   // CSMIA Geolocation reference constants
   static const String initialAirportCode = 'BOM';
-  static const String initialAirportName = 'Chhatrapati Shivaji Maharaj International Airport (CSMIA)';
+  static const String initialAirportName =
+      'Chhatrapati Shivaji Maharaj International Airport (CSMIA)';
 
   // Terminal 2 P4 Pickup Coordinates
   static const double csmiaT2Lat = 19.0886;
